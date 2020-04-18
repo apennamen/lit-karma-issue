@@ -7,5 +7,3 @@ export class LitKarmaBase extends LitElement {
     `;
   }
 }
-
-window.customElements.define('lit-karma-base', LitKarmaBase);

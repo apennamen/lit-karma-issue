@@ -1,5 +1,7 @@
 import { html, fixture, expect } from '@open-wc/testing';
-import '../lib/lit-karma-base';
+import { LitKarmaBase } from '../lib/lit-karma-base';
+
+window.customElements.define('lit-karma-base', LitKarmaBase);
 
 
 describe('Karma Base', () => {
